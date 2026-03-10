@@ -1,0 +1,15 @@
+{
+  "name": "bus-logistics-platform",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev --workspace @bus-logistics/api",
+    "dev:mobile": "npm run dev --workspace @bus-logistics/mobile",
+    "build": "npm run build --workspaces",
+    "typecheck": "npm run typecheck --workspaces"
+  }
+}

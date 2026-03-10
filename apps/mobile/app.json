@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Bus Logistics",
+    "slug": "bus-logistics",
+    "scheme": "buslogistics",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.buslogistics.app"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
