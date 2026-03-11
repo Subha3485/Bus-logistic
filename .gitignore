@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+.expo-shared/
+dist/
+build/
+.env
+.DS_Store
+coverage/
+apps/mobile/.expo/
+apps/mobile/dist/
+apps/api/dist/
